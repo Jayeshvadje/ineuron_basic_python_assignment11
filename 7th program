@@ -1,0 +1,12 @@
+#Python to find all duplicate characters in string
+
+#intitize string
+a="jayesh ananda vadje"
+duplicates=[]
+#use for loop to check the problem
+for i in a:
+    if a.count(i)>1:
+        if i not in duplicates:
+            duplicates.append(i)
+print("duplicate charaters in strings are = ",duplicates)
+
