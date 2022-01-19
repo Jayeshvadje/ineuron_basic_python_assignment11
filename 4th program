@@ -1,0 +1,12 @@
+#Python to check if a given string is binary string or not
+def binaryORnot():
+    """function which tell us whether the string is binary or not"""
+    #intilize a string
+    a="010101"
+    #use in to cheak whether the stirng is binary or not 
+    if '0' in a and '1' in a:
+        print("its a binary string")
+    else:
+        print("it is not binary string")
+#call the function
+binaryORnot()
