@@ -1,0 +1,9 @@
+#Python program for removing i-th character from a string
+
+a="jayesh"
+b = ""
+
+for i in range(len(a)):
+    if i != 2:
+        b = b + a[i]
+print(b)
