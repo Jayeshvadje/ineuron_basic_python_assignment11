@@ -1,0 +1,12 @@
+#Python Program to check if a string contains any special character
+
+a = "-=()[]{}|!@#$%^&*<>,+.?/""'':;"
+
+string1 = "jayesh#$%"
+
+if any(c in a for c in string1):
+
+    print("yess string contain special characters")
+else:
+    print("string does not contain special character")
+
