@@ -1,0 +1,21 @@
+#Python program to split and join a string
+#make one function
+def stri():
+    """function which split and join the string"""
+    #take a string
+    a="jayesh ananda vadje"
+
+    #split the string using split method
+    b=a.split()
+
+    #print the split string
+    print("split the string = ",b)
+
+    #join the string using join method
+    c= '-'.join(b)
+    #print the join string
+    print("join the string = ",c)
+    return __doc__
+
+#call the function
+stri()
