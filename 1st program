@@ -1,0 +1,15 @@
+#Python program to find words which are greater than given length k
+#take a string
+a="hello jayesh is my name"
+#intilize k value
+k=4
+#take one empty string
+c=[]
+words=a.split(" ")
+#use for loop
+for word in words:
+    if len(word)>k:
+        c.append(word)
+    #call the function
+print(c)
+
