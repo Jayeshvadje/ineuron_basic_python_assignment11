@@ -1,0 +1,17 @@
+#Python program to find uncommon words from two Strings
+#enter first string
+a="jayesh vadje"
+#enter second string
+b="ananda vadje"
+#use split method
+a=a.split()
+b=b.split()
+uc=''
+#use for loop to check uncommon words
+for i in a:
+    if i not in b:
+        uc = uc + " " + i
+for j in b:
+    if j not in a:
+        uc = uc + " " + j
+        print(uc)
